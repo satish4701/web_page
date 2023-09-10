@@ -400,6 +400,7 @@
     }
     .tab_hero .tab-button{
         padding: 15px 9px;
+        line-height: 16px;
     }
     .tab_hero .tab-buttons{
         display: flex;
