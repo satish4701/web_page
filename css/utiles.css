@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Palatino';
+    src: url('../fonts/Palatino.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+header .container {
+  max-width: 1660px;
+  margin: 0 auto;
+  width: 95%;
+  padding: 0 10px;
+}
+.container{
+  max-width: 1220px;
+    padding: 0 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+  padding: 0 10px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+
+}
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.img_fluid {
+  max-width: 100%;
+  height: auto;
+}
+.text-white{
+    color:white
+}
+
+/* Font weight css */
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-600 {
+  font-weight: 600;
+}
+
+h1{
+    font-size: 65px;
+    line-height: 67px;
+    margin: 25px 0 48px;
+}
+h2{
+  font-size: 50px;
+  line-height: 52px;
+}
+h3{
+  font-size: 30px;
+  line-height: 32px;
+}
+h4{
+  font-size: 25px;
+  line-height: 26px;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+
+.primary-btn{
+    width: 198px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 35px; 
+   background-color: #f42267;
+    color: white;
+    /* transition: all 1s; */
+    box-shadow: 4px 0 16px rgba(0, 0, 0, 0.35);
+}
+
+.secondary-btn{
+  width: 146px;
+  height: 47px;
+  line-height: 47px;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #f42267;
+  border-radius: 10px;
+  box-shadow:  0 10px 0 0 #ff5990;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
